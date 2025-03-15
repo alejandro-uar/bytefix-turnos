@@ -1,3 +1,4 @@
+
 # ByteFix
 
 Bytefix es un sistema en desarrollo para la gestión de turnos en un servicio técnico de informática. Permite a los clientes agendar citas dentro de los días y horarios laborales establecidos, gestionar sus turnos en tiempo real y cancelarlos siempre que respeten el tiempo de anticipación requerido. Próximamente, se planea incorporar un panel de administración para supervisar y validar determinadas rúbricas.
@@ -16,9 +17,14 @@ Bytefix es un sistema en desarrollo para la gestión de turnos en un servicio t�
 - Front: npm run dev
 
 # App img
-
 ## Inicio
-## Register
-## Login
-## Agendar turno
-## Turnos lado del cliente
+![Inicio](https://raw.githubusercontent.com/alejandro-uar/bytefix-turnos/main/front/vite-project/public/inicio.png)
+## Regitro de usuario
+![Inicio](https://raw.githubusercontent.com/alejandro-uar/bytefix-turnos/main/front/vite-project/public/register.png)
+## Inicio de session
+![Inicio](https://raw.githubusercontent.com/alejandro-uar/bytefix-turnos/main/front/vite-project/public/login.png)
+## Agendar turnos
+![Inicio](https://raw.githubusercontent.com/alejandro-uar/bytefix-turnos/main/front/vite-project/public/misturnos.png)
+## Mis turnos
+![Inicio](https://raw.githubusercontent.com/alejandro-uar/bytefix-turnos/main/front/vite-project/public/mistrunos2.png)
+
