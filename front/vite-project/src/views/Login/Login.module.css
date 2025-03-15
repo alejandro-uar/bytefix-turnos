@@ -1,0 +1,68 @@
+
+.containerForm {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+    padding: 20px;
+}
+
+.containerSvg {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+}
+
+form label {
+    color: #f0f0f0;
+    font-size: 14px;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    outline: none;
+}
+
+form input::placeholder {
+    color: #ddd;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #1a73e8;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #155db2;
+}
+
+form span {
+    color: #ff4d4d;
+    font-size: 12px;
+}

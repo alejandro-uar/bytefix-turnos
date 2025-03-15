@@ -1,0 +1,35 @@
+/* NavBar.module.css */
+nav {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000; /* Fondo oscuro */
+}
+
+.link {
+    color: #61dafb; /* Color de los enlaces */
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 5px;
+    transition: color 0.3s, border-bottom 0.3s; /* Transición para efecto de hover */
+}
+
+.link:hover {
+    color: #ffffff; /* Color al pasar el mouse */
+    border-bottom: 2px solid #ffffff; /* Línea inferior al pasar el mouse */
+}
+
+.active {
+    font-weight: bold;
+    color: #ffffff;
+    border-bottom: 2px solid #61dafb; /* Línea en el enlace activo */
+}
+
+.btn{
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}

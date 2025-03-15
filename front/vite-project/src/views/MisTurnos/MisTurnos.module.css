@@ -1,0 +1,13 @@
+.containerAppoint{
+    height: 90vh;
+    width: 100%;
+    background-color: #000;
+}
+.containerCards{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}

@@ -1,0 +1,82 @@
+.containerForm {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:black; /* Fondo negro con opacidad para un efecto borroso */
+    backdrop-filter: blur(8px); /* Efecto borroso */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(37, 37, 37, 0.9); /* Fondo gris oscuro con opacidad */
+    border-radius: 8px;
+    max-width: 400px;
+    margin: 0 auto;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+/* Estilos de los labels */
+label {
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 10px 0 5px;
+}
+
+/* Estilos de los inputs */
+input[type="date"],
+input[type="time"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #555;
+    border-radius: 4px;
+    background-color: #333;
+    color: #ffffff;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+input[type="date"]:focus,
+input[type="time"]:focus {
+    border-color: #00bcd4; /* Color azul claro */
+}
+
+/* Estilos para mensajes de error */
+.containerErr {
+    color: #fff; /* Rojo brillante */
+    font-size: 0.9rem;
+    margin-top: 5px;
+    text-align: left;
+    width: 100%;
+    padding: 5px;
+}
+
+/* Estilos del botón */
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #00bcd4; /* Azul claro */
+    color: #1f1f1f;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:disabled {
+    background-color: #555; /* Desactiva el botón con un gris más oscuro */
+    cursor: not-allowed;
+}
+
+button[type="submit"]:hover:not(:disabled) {
+    background-color: #0097a7; /* Un tono de azul un poco más oscuro */
+}
+

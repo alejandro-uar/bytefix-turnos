@@ -1,0 +1,18 @@
+.notInfo{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.notInfo p{
+    font-size: 1.6em;
+    text-align: center;
+    color: #fff;
+}
+.containerSvg{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
